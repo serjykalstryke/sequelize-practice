@@ -4,11 +4,11 @@ USE codegigs_db;
 
 CREATE TABLE gigs (
     id INT NOT NULL AUTO_INCREMENT,
-    title VARCHAR(200),
-    technologies VARCHAR(200),
-    budget VARCHAR(20),
+    title VARCHAR(255),
+    technologies VARCHAR(255),
+    budget VARCHAR(255),
     description TEXT,
-    contact_email VARCHAR(200),
+    contact_email VARCHAR(255),
     createdAt TIMESTAMP NOT NULL,
     updatedAt TIMESTAMP,
     PRIMARY KEY (id)
